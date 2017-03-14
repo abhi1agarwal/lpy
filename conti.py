@@ -37,3 +37,11 @@ for x in A:
 		print(y,end=' , ')
 	print('')
 
+rno=random.randrange(0,100) # generates from 0 to 99, note 100 is not included 
+
+while (rno != 15):
+	print(rno)
+	rno=random.randrange(0,100)
+print('finallu, rno is :',rno)
+
+
